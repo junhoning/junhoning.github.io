@@ -23,7 +23,7 @@ png나 우리가 커스텀으로 다룰 데이터를 학습 모델에 input으�
 먼저 아래의 kaggle에서 데이터들 부터 다운 받자  
 https://www.kaggle.com/scolianni/mnistasjpg/data  
 
-![image.png](attachment:image.png)
+![dir_tree_mnist](../assets/post_images/dir_tree_mnist.png)
 
 Kaggle에서 저 링크로 다운 받으면 mnistasjpg.zip 라는 파일을 받고 압축을 푼다.  
 압축을 풀고나면 그 안에 trainingSet.tar.gz 까지 풀어준다.  
@@ -31,7 +31,7 @@ Kaggle에서 저 링크로 다운 받으면 mnistasjpg.zip 라는 파일을 받�
 
 정리하자면 아래와 같다  
 
-![image.png](attachment:image.png)
+![mnist_download](../assets/post_images/mnist_download.png)
 
 그 안에 mnist_png 파일을 
 
@@ -371,8 +371,19 @@ image.shape, label.shape
 ```
 
 
+
+
+    ((64, 28, 28, 1), (64, 10))
+
+
+
+
 ```python
 plt.title(label[0])
 plt.imshow(image[0, :, :, 0])
 plt.show()
 ```
+
+
+![png](output_44_0.png)
+
