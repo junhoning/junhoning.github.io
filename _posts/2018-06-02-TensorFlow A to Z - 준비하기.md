@@ -13,7 +13,7 @@ tags:
 
 전체적인 다이아그램은 아래의 그림과 같다. 
 
-![](https://www.notion.so/file/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe7a56dde-954c-4571-803d-7b2fb40c0cbf%2FNNDiagram.jpg)
+![NN Diagram](../assets/post_images/NN Diagram.jpg)
 
 사람들마다 패키징 하는 스타일들이 다들 다양하게 가지고 있겠지만, 위의 방법은 내가 쓰는 방법을
  예시로 그렸다. 먼저 가운데 상자 안에 담긴 Graph라는 상자 안에 Model, Optimizer이 담겨 있다. Grpah 안에 학습을 돌리기 위한 Data를 넣어줄 것인데. 어떤 것을 어떻게 넣을 것인지는 Data Manager가 그 역할을 해줄 것이다. 
@@ -24,7 +24,7 @@ Model, Optimization이 담긴 Graph 는 우리가 학습하고자 하는 것은 
 
 ## 진행과정
 
-![](https://www.notion.so/file/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc974a26f-ae30-42d2-a4ad-0571073af7d7%2Fprocess.jpg)
+![mnist_process](../assets/post_images/mnist_process.jpg)
 
 파이썬 파일은 크게 5개의 파일로 나누어서 만들 것이다.  제일 먼저 모델을 다 만들면 학습을 시작한다. 학습을 하면서 나온 checkpoint 를 통해 모델을 freeze 하여 pb 파일을 뽑아낼 것이다. 뽑아낸 pb 파일을 통해 Test 할 그림을 넣어 작동이 잘 되는지 최종 확인 할 것이다. 그렇게 되면 당신만의 신경망 모델이 완성 되는 것이다. 
 
