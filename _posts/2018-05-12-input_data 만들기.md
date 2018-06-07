@@ -7,23 +7,18 @@ tags:
   - data input
 ---
 
+### 학습용 데이터 준비하고, data input 만들기
+
 ```python
-# os, glob 경로나 파일 os 명령
+# 필요한 패키지들 
 import os 
 from glob import glob
 
 # PIL는 이미지를 load 할 때, numpy는 array 
 from PIL import Image
 import numpy as np
-
-# 이미지 볼 때 
-import matplotlib.pyplot as plt
-# 아래에 magic function은 jupyter notebook에만 해당됩니다. 
-# 이건 jupyter로 열면, 주피터 내부 열수 있게 하는 것 
-% matplotlib inline
 ```
 
-### 준비하기  
 데이터를 준비 할 때 저는 tensorflow나 다른데에서 예제로 제공해주는 그런 데이터 말고  
 png나 우리가 커스텀으로 다룰 데이터를 학습 모델에 input으로 넣을 파일을 만들겁니다. 
 
