@@ -13,7 +13,7 @@ tags:
 
 전체적인 다이아그램은 아래의 그림과 같다. 
 
-![NN Diagram](../assets/post_images/NN Diagram.jpg)
+![NN_diagram](../assets/post_images/NN_diagram.jpg)
 
 사람들마다 패키징 하는 스타일들이 다들 다양하게 가지고 있겠지만, 위의 방법은 내가 쓰는 방법을
  예시로 그렸다. 먼저 가운데 상자 안에 담긴 Graph라는 상자 안에 Model, Optimizer이 담겨 있다. Grpah 안에 학습을 돌리기 위한 Data를 넣어줄 것인데. 어떤 것을 어떻게 넣을 것인지는 Data Manager가 그 역할을 해줄 것이다. 
