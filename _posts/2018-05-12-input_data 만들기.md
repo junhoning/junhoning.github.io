@@ -1,4 +1,11 @@
-
+---
+title: "input_data 만들기"
+categories:
+  - TensorFlow Basic
+tags:
+  - tensorflow
+  - data input
+---
 
 ```python
 # os, glob 경로나 파일 os 명령
