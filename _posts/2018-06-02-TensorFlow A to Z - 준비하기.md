@@ -42,4 +42,4 @@ trainingSet.tar.gz을 받고서 압축을 풀어서 열어보면 trainingSet이�
 
 data_manager.py 안에는 데이터의 경로를 지정하여 image와 label 데이터셋을 준비하고 model에 넣는 역할을 만들 것이고, model.py에는 tensorflow로 구현한 모델, [graph.py](http://graph.py)는 그 모델을 학습 시키기 위한 graph와 optimizer를 만들 것이고, train.py에서 모델을 학습시키고 test까지 가능하도록 할 것이다. 그리고 마지막으로 util.py에서는 학습한 모델을 freeze 해서 pb로 뽑고, checkpoint 등 부가적으로 필요한 기능들을 넣을 계획이다. 
 
-글이 너무 길어지니 다음 글에서는 data_manager부터 구현할 것이다.
+다음 글에서는 data_manager부터 구현할 것이다.
