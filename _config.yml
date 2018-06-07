@@ -77,7 +77,7 @@ naver_site_verification  :
 twitter:
   username               :
 facebook:
-  username               :
+  username               : junhoning
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -100,18 +100,18 @@ analytics:
 author:
   name             : "Joon Ho Lee"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I'm a crazy boy for Data Science."
+  bio              : "A crazy boy for Data Science."
   location         : "Seoul"
-  email            :
+  email            : trackindatalabs@gmail.com
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
   dribbble         :
-  flickr           :
-  facebook         :
+  flickr           : 
+  facebook         : "http://facebook.com/junhoning/"
   foursquare       :
-  github           :
+  github           : "http://github.com/junhoning/"
   gitlab           :
   google_plus      :
   keybase          :
