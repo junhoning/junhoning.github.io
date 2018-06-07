@@ -2,8 +2,8 @@
 main:
   - title: "Post"
   - url: /posts/
-  - title: "Categories"
-  - url: /categories/
+  # - title: "Categories"
+  # - url: /categories/
   # - title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
